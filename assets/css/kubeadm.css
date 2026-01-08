@@ -8,7 +8,7 @@
     }
 
     :root {
-        /* Core Colors */
+        /* Core Colors 
         --primary: #3D5493;
         --primary-dark: #2D3D6B;
         --primary-light: #4A6BB5;
@@ -20,10 +20,38 @@
         --muted: #6B7B9E;
         --border: #E2E8F0;
         --success: #22C55E;
+        --kubernetes-blue: #326CE5; */
+
+        /* Core Colors – Dark Indigo System */
+        --primary: #171741;
+        /* Main brand / footer */
+        --primary-dark: #0F112E;
+        /* Deeper indigo */
+        --primary-light: #1F245A;
+        /* Lifted indigo (still dark) */
+
+        --accent: #E68D3A;
+        /* Keep your brand orange */
+        --accent-dark: #D4781F;
+
+        --background: #F8F9FB;
+        /* Light pages */
+        --foreground: #1E223F;
+        /* Text on light bg */
+
+        --card: #FFFFFF;
+        --muted: #7A82B8;
+        /* Muted indigo-gray */
+        --border: #E2E8F0;
+
+        --success: #22C55E;
+
+        /* Kubernetes brand (unchanged) */
         --kubernetes-blue: #326CE5;
 
         /* Gradients */
-        --gradient-hero: linear-gradient(135deg, #3D5493 0%, #4A7AB8 50%, #2D3D6B 100%);
+        /* --gradient-hero: linear-gradient(135deg, #3D5493 0%, #4A7AB8 50%, #2D3D6B 100%); */
+        --gradient-hero: linear-gradient(135deg, #171741 0%, #1F245A 45%, #121334 100%);
         --gradient-accent: linear-gradient(135deg, #E68D3A 0%, #F5A623 100%);
 
         /* Shadows */
